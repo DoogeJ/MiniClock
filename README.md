@@ -1,7 +1,7 @@
 # MiniClock
 A small desk clock powered by an ESP8266/ESP-01 and a 128x32 I2C 0.91" OLED Display.
 
-![Alt text](/MiniClock.gif?raw=true "Clock in action")
+![Clock in action](/MiniClock.gif?raw=true "Clock in action")
 
 # Introduction
 For a while I wanted a nice small clock on my desk that would tell me both the date and time.
@@ -17,6 +17,10 @@ For anyone else, consider it a starting point for a project like this. I hope yo
 * A 3D-printed enclosure (See [Clock case.stl](/Clock%20case.stl) and [Clock case lid.stl](/Clock%20case%20lid.stl))
 * Some wires
 * Some code (See [MiniClock.ino](/MiniClock.ino))
+
+# Assembly
+Please note that on this display, only VCC, NC (GND), SDA and SCL are exposed.
+![How to connect all the things](/schematic.png?raw=true "How to connect all the things")
 
 # Remarks and potential improvements
 * I found out on mine that the lid was a little too big. I have corrected the STL file for that, but not checked if it is actually okay now. Please let me know if you have issues with it.
